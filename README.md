@@ -1,16 +1,16 @@
-# React + Vite
+# The Aletheum Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A centralized directory and portfolio hub housing a unified collection of tools designed to serve communities, support ministry operations, and bring clarity to theological strategy. 
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Aletheum Project serves as a single-page architectural shell that brings together distinct software applications under one cohesive ecosystem. Rooted in the Greek word for truth (*aletheia*), the platform provides a foundational, highly legible, and structured environment to navigate various faith-based, web, and music utilities.
 
-## React Compiler
+### The Aletheum Directory (Faith & Ministry)
+*   **Lumina Platform**: A clean, adaptable boilerplate site serving as a reliable canvas for congregations.
+*   **Praise Team Pipeline**: Workflow and scheduling tool designed for quick data entry by busy volunteers.
+*   **The Scrolling App & Engine**: A dynamic media delivery system and its backend administrative engine.
+*   **WordWhen**: An interactive Progressive Web App built to help children navigate and process complex emotions.
+*   **NAR Checker**: A structured, data-forward interface for theological analysis.
+*   **Faith Quadrants Planner**: A visual, grid-based mapping tool for strategic ministry planning and assessment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
