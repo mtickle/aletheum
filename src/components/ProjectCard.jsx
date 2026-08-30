@@ -7,9 +7,9 @@ const SvgPlaceholder = ({ title }) => (
         viewBox="0 0 400 200"
         preserveAspectRatio="xMidYMid slice"
     >
-        <rect width="400" height="200" fill="#f8fafc" />
+        <rect width="400" height="200" fill="#1e293b" />
         <path d="M0 0l400 200M400 0L0 200" stroke="#e2e8f0" strokeWidth="2" />
-        <rect x="50" y="75" width="300" height="50" fill="#f8fafc" opacity="0.9" />
+        <rect x="50" y="75" width="300" height="50" fill="#1e293b" opacity="0.9" />
         <text
             x="200"
             y="100"
@@ -27,7 +27,7 @@ const SvgPlaceholder = ({ title }) => (
 
 const ProjectCard = ({ title, description, imageUrl, imageAlt, appUrl, buttonText }) => {
     return (
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+        <div className="bg-slate-800 rounded-xl shadow-sm border border-slate-700 overflow-hidden flex flex-col h-full hover:shadow-md transition-shadow duration-200">
             {/* Image Container */}
             <div className="h-48 overflow-hidden bg-slate-100 border-b border-gray-50">
                 {imageUrl ? (
@@ -43,7 +43,7 @@ const ProjectCard = ({ title, description, imageUrl, imageAlt, appUrl, buttonTex
 
             {/* Content Container */}
             <div className="p-6 flex flex-col flex-grow">
-                <h4 className="text-xl font-bold text-slate-900 mb-2">{title}</h4>
+                <h4 className="text-xl font-bold text-slate-100 mb-2">{title}</h4>
                 <p className="text-sm text-slate-600 mb-6 flex-grow">{description}</p>
                 <a
                     href={appUrl}

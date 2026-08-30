@@ -5,16 +5,16 @@ const HomePage = () => {
     return (
         <div>
             {/* Page Hero Section */}
-            <div className="bg-aletheum-teal text-white py-12 md:py-16">
+            {/* <div className="bg-aletheum-teal text-white py-12 md:py-16">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h1 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
                         Welcome Home
                     </h1>
                     <p className="text-lg md:text-xl text-teal-100 max-w-2xl mx-auto leading-relaxed">
-                        Faith in action. Discover a unified collection of tools designed to serve communities, support one another, and bring clarity to ministry operations.
+                        A collection of tools designed to bring clarity to ministry operations.
                     </p>
                 </div>
-            </div>
+            </div> */}
 
             {/* Main Content: Directory Grid */}
             <div id="aletheum" className="max-w-7xl mx-auto px-4 py-12 w-full">

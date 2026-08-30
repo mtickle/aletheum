@@ -2,20 +2,20 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 // Asset imports 
-// import platformImage from '../assets/aletheum-platform.png';
-// import scrollingAppImage from '../assets/scrolling-app.png';
+import platformImage from '../assets/platform.png';
+import scrollingAppImage from '../assets/scroller.png';
 // import engineImage from '../assets/engine.png';
-// import pipelineImage from '../assets/pipeline.png';
+import pipelineImage from '../assets/pipeline.png';
 // import narCheckerImage from '../assets/nar-checker.png';
 // import quadrantsImage from '../assets/quadrants.png';
-// import wordWhenImage from '../assets/wordwhen.png';
+import wordWhenImage from '../assets/wordwhen.png';
 
 const projects = [
     {
         title: 'Aletheum Platform',
         category: 'operations',
         description: 'A clean, adaptable boilerplate site serving as a reliable canvas for church congregations.',
-        imageUrl: null,
+        imageUrl: platformImage,
         imageAlt: 'A screenshot of the Aletheum Platform',
         appUrl: 'https://mtickle.github.io/aletheum-platform/',
         buttonText: 'View Platform',
@@ -24,7 +24,7 @@ const projects = [
         title: 'Praise Team Pipeline',
         category: 'operations',
         description: 'Workflow and scheduling tool designed for quick data entry by busy volunteers.',
-        imageUrl: null,
+        imageUrl: pipelineImage,
         imageAlt: 'A screenshot of Praise Team Pipeline',
         appUrl: 'https://mtickle.github.io/praise-pipeline/',
         buttonText: 'Open Pipeline',
@@ -33,7 +33,7 @@ const projects = [
         title: 'The Scrolling App',
         category: 'content',
         description: 'Fluid, dynamic media delivery system for high engagement content.',
-        imageUrl: null,
+        imageUrl: scrollingAppImage,
         imageAlt: 'A screenshot of the Scrolling App',
         appUrl: 'https://mtickle.github.io/scrolling-app/',
         buttonText: 'Start Scrolling',
@@ -51,7 +51,7 @@ const projects = [
         title: 'WordWhen',
         category: 'content',
         description: 'An interactive tool helping children navigate and process complex emotions.',
-        imageUrl: null,
+        imageUrl: wordWhenImage,
         imageAlt: 'A screenshot of WordWhen',
         appUrl: 'https://mtickle.github.io/wordwhen/',
         buttonText: 'Launch WordWhen',
@@ -85,12 +85,12 @@ const categories = [
 const AletheumDirectory = () => {
     return (
         <div className="w-full">
-            <div className="text-center mb-12">
+            {/* <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-slate-900">The Directory</h2>
                 <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-                    A centralized hub for theological tools, media engines, and structural ministry planning.
+                    A collection of tools designed to bring clarity to ministry operations.
                 </p>
-            </div>
+            </div> */}
 
             {categories.map((cat) => {
                 const categoryProjects = projects.filter((project) => project.category === cat.id);

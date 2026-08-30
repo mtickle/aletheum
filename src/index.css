@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-aletheum-navy: #08111c;
+    --color-aletheum-teal: #127265;
+    --color-aletheum-tealHover: #0c5047;
+    --color-aletheum-tealLight: #b4d8d3;
+}
