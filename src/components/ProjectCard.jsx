@@ -27,7 +27,7 @@ const SvgPlaceholder = ({ title }) => (
 
 const ProjectCard = ({ title, description, imageUrl, imageAlt, appUrl, buttonText }) => {
     return (
-        <div className="bg-slate-800 rounded-xl shadow-sm border border-slate-700 overflow-hidden flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+        <div className="bg-aletheum-surface rounded-xl shadow-sm border border-aletheum-navy overflow-hidden flex flex-col h-full hover:shadow-md transition-shadow duration-200">
             {/* Image Container */}
             <div className="h-48 overflow-hidden bg-slate-100 border-b border-gray-50">
                 {imageUrl ? (

@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    --color-aletheum-navy: #08111c;
-    --color-aletheum-teal: #127265;
-    --color-aletheum-tealHover: #0c5047;
-    --color-aletheum-tealLight: #b4d8d3;
+    /* Main background (Darkest) */
+    --color-aletheum-navy: #222831;
+
+    /* Card/Surface background (Lighter slate) */
+    --color-aletheum-surface: #393e46;
+
+    /* Primary Accent (Vibrant cyan/teal) */
+    --color-aletheum-teal: #00adb5;
+    --color-aletheum-tealHover: #008a91;
+    /* Custom darker shade for button hovers */
+
+    /* Primary Text (Off-white) */
+    --color-aletheum-light: #eeeeee;
 }
